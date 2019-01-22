@@ -1,0 +1,845 @@
+body{
+  margin: 0;
+  padding:0;
+}
+div.menu{
+  width:100%;
+  background-color: #fff;
+  position: sticky;
+  height: 50px;
+  padding-top: 5px;
+  position: sticky;
+  border-bottom: 1px solid grey;
+  top:0;
+  left:0;
+}
+div.menu ul{
+  list-style-type:none;
+  padding-right: 50px;
+  padding-top: 2px;
+  margin: 0;
+  float: right;
+  overflow: hidden;
+  /* background-color: #d10202; */
+}
+div.menu ul li{float: left;}
+div.menu ul li a{
+  display:block;
+  height: 5px;
+  text-decoration: none;
+  color: black;
+  padding: 15px;
+  text-align: center;
+  font-family: arial;
+}
+div.menu ul li a:hover{
+  border-top: 2px solid red;
+  background-color: #fff;
+  color: red;
+}
+div.menu img{
+  width: 150px;
+  height: auto;
+  padding-left: 75px;
+  padding-top: 5px;
+}
+
+
+div.header{
+  width: 100%;
+  height: 600px;
+  margin: 0 auto;
+  padding:0 auto;
+  background: url("First.jpg")no-repeat center;
+  background-size: cover;
+}
+div.gelap{
+  background-position: center;
+  width:100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.7;
+}
+
+div.header h1{
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+  padding-top:200px;
+  font-family: tahoma;
+}
+div.header h1 img{
+  width: 100px;
+  height:auto;
+}
+div.header h1 label{
+  color: #fff;
+  text-align: center;
+  font-size: 35px;
+  font-family: arial;
+  }
+
+div.about{
+  width: 100%;
+  height: 400px;
+}
+div.about .left{
+  width: 40%;
+  height: 100%;
+  padding-top: 50px;
+  padding-left: 50px;
+  float: left;
+}
+div.about .left h1{
+  text-align: right;
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: 15;
+  padding-right: 15px;
+  border-right: 5px solid red;
+}
+
+div.about .left p{
+  text-align: right;
+  font-size: 22px;
+  font-family: serif;
+  font-weight: 5;
+  color: grey;
+}
+
+div.about .right{
+  width: 50%;
+  height:100%;
+  float: right;
+}
+div.about .right img{
+  width: 500px;
+  height: auto;
+  border: 10px solid black;
+  border-radius: 20px black;
+  padding-top: 0;
+  margin-top: 78px;
+  margin-left: 18px;
+}
+
+div.layanan{
+  width: 100%;
+  height: 400px;
+  float: left;
+  padding-top: 15px;
+}
+div.layanan div.box{
+  width: 20%;
+  height: 350px;
+  margin: 20px;
+  float: left;
+}
+div.layanan div.box div.icon{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: red;
+  margin: 0 auto;
+  display: flex;
+  margin-top:30px;
+}
+div.icon span{
+  margin: auto;
+  font-size: 60px;
+  color: #fff;
+  text-align: center;
+}
+div.deskripsi h3{
+  text-align: center;
+  font-size: 20px;
+  font-family: tahoma;
+  font-weight: 15;
+}
+div.deskripsi p{
+  text-align: center;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: 5;
+  color: grey;
+}
+div.layanan div.box div.icon1{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: red;
+  margin: 0 auto;
+  display: flex;
+  margin-top:30px;
+  opacity:0.5;
+}
+div.icon1 span{
+  margin: auto;
+  font-size: 60px;
+  color: #fff;
+  text-align: center;
+}
+div.deskripsi1 h3{
+  text-align: center;
+  font-size: 20px;
+  font-family: tahoma;
+  font-weight: 15;
+  opacity: 0.5;
+}
+div.deskripsi1 p{
+  text-align: center;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: 5;
+  color: grey;
+  opacity: 0.8;
+}
+div.layanan div.box div.icon2{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: grey;
+  margin: 0 auto;
+  display: flex;
+  margin-top:30px;
+}
+div.icon2 span{
+  margin: auto;
+  font-size: 60px;
+  color: #fff;
+  text-align: center;
+}
+div.deskripsi2 h3{
+  text-align: center;
+  font-size: 20px;
+  font-family: tahoma;
+  font-weight: 15;
+}
+div.deskripsi2 p{
+  text-align: center;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: 5;
+  color: grey;
+}
+div.layanan div.box div.icon3{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: black;
+  margin: 0 auto;
+  display: flex;
+  margin-top:30px;
+}
+div.icon3 span{
+  margin: auto;
+  font-size: 60px;
+  color: #fff;
+  text-align: center;
+}
+div.deskripsi3 h3{
+  text-align: center;
+  font-size: 20px;
+  font-family: tahoma;
+  font-weight: 15;
+}
+div.deskripsi3 p{
+  text-align: center;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: 5;
+  color: grey;
+}
+
+div.penghargaan{
+  width: 100%;
+  height: 800px;
+  background: url("Second.jpg")no-repeat center;
+  background-size: cover;
+  float: left;
+  margin-bottom:20px;
+  position:relative;
+}
+div.gelap1{
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  float: left;
+  background: linear-gradient(to right, #000,#000,#000, transparent);
+  opacity: 0.9;
+}
+div.penghargaan .left{
+  width: 50%;
+  margin-top: 200px;
+  position:absolute;
+  text-align: right;
+  color: #fff;
+  border-right: 5px solid red;
+  padding-right: 20px;
+  float: left;
+}
+div.penghargaan .left h2{
+  text-align: right;
+  font-size: 30px;
+  font-family: tahoma;
+  font-weight: 5;
+  margin: 0 auto;
+}
+div.penghargaan .left h1{
+  text-align: right;
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: 8;
+  margin: 1px;
+}
+div.penghargaan .left h3{
+  text-align: right;
+  font-size: 20px;
+  font-family: tahoma;
+  font-weight: 5;
+  margin: 2px;
+}
+div.penghargaan .right{
+  width: 50%;
+  position: absolute;
+  color: #fff;
+  float: right;
+}
+div.penghargaan .right img{
+  width: 130px;
+  height: auto;
+  padding-top: 0;
+  margin-top: 200px;
+  margin-left: 730px;
+}
+
+div.programstudi{
+  width:100%;
+  height:600px;
+  float:left;
+}
+div.programstudi .atas{
+  width:100%;
+  height:40%;
+  float:left;
+}
+div.programstudi .atas .box{
+  width: 100%;
+  height: 300px;
+  float: left;
+}
+div.programstudi .atas .box .icon{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #ce0606;
+  margin: 0 auto;
+  display: flex;
+  margin-top:30px;
+  align-items: center;
+}
+div.programstudi .atas .box h1{
+  text-align: center;
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: 5;
+  margin: 0 auto;
+  padding-top: 7px;
+}
+div.programstudi .atas .box h3{
+  text-align: center;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 5;
+  color: grey;
+  margin-top: : 5px;
+}
+div.programstudi .bawah{
+  width:100%;
+  height:60%;
+  float:left;
+}
+div.programstudi .bawah .box{
+  width:100%;
+  height: 500px;
+  background: linear-gradient(white 250px, #ce0606 250px);
+}
+div.programstudi .bawah .box .bottom{
+  background-color: red;
+  width:100%;
+  height:80%;
+}
+div.programstudi .bawah .box img{
+  margin-left: 100px;
+}
+div.programstudi .bawah .box .left{
+  width: 50%;
+  padding-right: 20px;
+  float: left;
+}
+div.programstudi .bawah .box .left h3{
+  text-align: center;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 5;
+  color: white;
+  margin-top: : 5px;
+}
+div.programstudi .bawah .box .left h4{
+  text-align: center;
+  font-size: 18px;
+  font-family: tahoma;
+  font-weight: 3;
+  color: #ededed;
+  margin-top: : 0 auto;
+}
+div.programstudi .bawah .box .right{
+  width:50%;
+  float: right;
+  position: absolute;
+  padding-left: 650px;
+}
+div.programstudi .bawah .box .right h3{
+  text-align: center;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 5;
+  color: white;
+  margin-top: : 5px;
+}
+div.programstudi .bawah .box .right h4{
+  text-align: center;
+  font-size: 18px;
+  font-family: tahoma;
+  font-weight: 3;
+  color: #ededed;
+  margin-top: : 0 auto;
+}
+
+div.prestasi{
+  width:100%;
+  height:600px;
+  float:left;
+  margin-top: 200px;
+  background: linear-gradient(white 450px, #ce0606 150px);
+}
+div.prestasi .kiriatas{
+  width: 30%;
+  height:30%;
+  margin-left: 120px;
+}
+div.prestasi .kiriatas h1{
+  text-align: left;
+  font-size: 40px;
+  font-family: tahoma;
+  font-weight: 4;
+  color: black;
+  margin-top: : 0 auto;
+  padding-left: 50px;
+  border-left: 5px solid red;
+}
+div.prestasi .kiriatas h3{
+  text-align: left;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 3;
+  color: grey;
+  margin-top: : 0 auto;
+}
+div.prestasi .kananbawah{
+  width: 70%;
+  height:70%;
+  float: right;
+  position: relative;
+}
+div.prestasi .kananbawah img{
+  width: 700px;
+  height: auto;
+  border: 10px solid black;
+  border-radius: 20px black;
+  padding-top: 0 auto;
+  margin-left: 200px;
+  margin-top: 0 auto;
+}
+div.prestasi .kiribawah{
+  width:20%;
+  height:20%;
+  float:left;
+  position: absolute;
+  padding-top: 300px;
+  margin-left: 120px;
+}
+div.prestasi .kiribawah h2{
+  text-align: left;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 1;
+  color: white;
+  margin-top: : 0 auto;
+}
+
+div.info{
+  height: 600px;
+  width: 100%;
+  float: left;
+  padding-top: 100px;
+  background: linear-gradient(white 500px, #ce0606 100px);
+}
+div.info .atas{
+  height: 60%;
+  width: 100%;
+  float:left;
+}
+div.info .atas .icon{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #ce0606;
+  margin: 0 auto;
+  display: flex;
+  margin-top:30px;
+  align-items: center;
+}
+div.info .atas h1{
+  text-align: center;
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: 5;
+  margin: 0 auto;
+  padding-top: 7px;
+}
+div.info .atas h4{
+  text-align: center;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 5;
+  color: grey;
+  margin-top: : 5px;
+}
+div.info .bawah{
+  height:40%;
+  width:100%;
+  float:left;
+}
+div.info .bawah .icon{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #ce0606;
+  margin: 0 auto;
+  display: flex;
+  margin-left: 100px;
+}
+div.info .bawah h2{
+  text-align: left;
+  font-size: 35px;
+  font-family: sans-serif;
+  font-weight: 5;
+  margin: 0 auto;
+  padding-top: 7px;
+  color: white;
+  margin-left: 100px;
+}
+div.info .bawah h3{
+  text-align: left;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 5;
+  color: white;
+  opacity: 0.8;
+  margin-left: 100px;
+  margin-top: 0 auto;
+  }
+div.info .bawah div.box{
+  width: 20%;
+  height: 350px;
+  margin: 1px;
+  float: right;
+}
+div.info .bawah .left{
+  width:50%;
+  float:left;
+}
+div.info .bawah .right{
+  width:50%;
+  float: right;
+}
+div.info .bawah .right div.box div.icon1{
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background:#ce0606;
+  margin: 0 auto;
+  display:block;
+  margin-top:30px;
+  position: absolute;
+  color: white;
+}
+div.info .bawah div.box{
+  width: 20%;
+  height: 100px;
+  margin: 1px;
+  float: right;
+}
+div.info .bawah .right div.box div.icon2{
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background:#ce0606;
+  margin: 0 auto;
+  display: block;
+  margin-top:30px;
+  position: absolute;
+  color: white
+}
+div.info .bawah div.box{
+  width: 20%;
+  height: 350px;
+  margin: 1px;
+  float: right;
+}
+div.info .bawah .right div.box div.icon3{
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background:#ce0606;
+  margin: 0 auto;
+  display: block;
+  margin-top:30px;
+  position: absolute;
+  color: white;
+}
+div.info .bawah div.box{
+  width: 20%;
+  height: 350px;
+  margin: 1px;
+  float: right;
+}
+div.info .bawah .right div.box div.icon4{
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background:#ce0606;
+  margin: 0 auto;
+  display: block;
+  margin-top:30px;
+  position: absolute;
+  color: white;
+  font-size: 63px;
+}
+div.info .bawah div.box{
+  width: 20%;
+  height: 350px;
+  margin: 1px;
+  float: right;
+}
+
+div.partner{
+  width:100%;
+  height:500px;
+  float: left;
+  padding-top: 100px;
+}
+div.partner .atas{
+  width:100%;
+  height: auto;
+  float:left;
+}
+div.partner .atas .icon{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #ce0606;
+  margin: 0 auto;
+  display: flex;
+  margin-top:30px;
+  align-items: center;
+}
+div.partner .atas h1{
+  text-align: center;
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: 5;
+  margin: 0 auto;
+  padding-top: 7px;
+}
+div.partner .atas h4{
+  text-align: center;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 5;
+  color: grey;
+  margin-top: : 5px;
+}
+div.partner .bawah{
+  width:60%;
+  height: auto;
+  float:left;
+  margin: 0 auto;
+  padding-left: 250px;
+}
+div.partner .bawah div.box{
+  width: 25%;
+  height: auto;
+  float: left;
+  box-sizing: border-box;
+  margin:0 auto;
+}
+div.partner .bawah div.box img{
+  width:150px;
+  height:70px;
+  margin: 50px;
+}
+
+div.footer{
+  width:100%;
+  height:400px;
+  float:left;
+  padding-top: 50px;
+  background: linear-gradient(#252628 370px, #131314 30px);
+}
+div.footer .kiri1{
+  width:25%;
+  height:87.5%;
+  float:left;
+  padding-left: 100px;
+}
+div.footer .kiri1 img{
+  width:150px;
+  height: auto;
+  padding-top: 10px;
+}
+div.footer .kiri1 h4{
+  text-align: left;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: 5;
+  color: grey;
+  margin-top: : 5px;
+}
+div.footer .kiri1 h3{
+  text-align: left;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: 5;
+  color: white;
+  padding-top: 20px;
+}
+div.footer .kiri1 div.box{
+  width: 20%;
+  height: 10px;
+  margin: 1px;
+  float: left;
+}
+div.footer .kiri1 div.box div.icon1{
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background:#252628;
+  margin: 0 auto;
+  display:flex;
+  margin-top:10px;
+  position: absolute;
+  color: white;
+  font-size: 10px;
+}
+div.footer .kiri1 div.box div.icon2{
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background:#252628;
+  margin: 0 auto;
+  display: flex;
+  margin-top:10px;
+  position: absolute;
+  color: white;
+  font-size: 10px;
+}
+div.footer .kiri1 div.box div.icon3{
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background:#252628;
+  margin: 0 auto;
+  display: flex;
+  margin-top:10px;
+  position: absolute;
+  color: white;
+  font-size: 10px;
+}
+div.footer .kiri1 div.box div.icon4{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background:#252628;
+  margin: 0 auto;
+  display: flex;
+  margin-top:10px;
+  position: absolute;
+  color: white;
+  font-size: 63px;
+}
+div.footer .kiri2{
+  width:25%;
+  height:60%;
+  float:left;
+}
+div.footer .kiri2 h3{
+  text-align: left;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: 5;
+  color: white;
+  padding-top: 0 auto;
+  margin-left: 20px;
+}
+div.footer .kanan1{
+  width:25%;
+  height:60%;
+  float:left;
+  padding-right: 10px;
+}
+div.footer .kanan1 h3{
+  text-align: left;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: 5;
+  color: white;
+  padding-top: 0 auto;
+}
+div.footer .kanan1 ul{
+  text-decoration: none;
+  list-style: none;
+  margin: 0 auto;
+  color: grey;
+}
+div.footer .kanan1 ul li{
+  margin: 0 auto;
+}
+div.footer .kanan1 ul li h4{
+  text-align: left;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: 5;
+  color: white;
+  padding-top: 0 auto;
+  margin: 5px;
+  text-decoration: none;
+  text-transform: none;
+}
+div.footer .kiribawah{
+  width:40%;
+  height:12.5%;
+  padding-left: 200px;
+  padding-top: 100px;
+}
+div.footer .kiribawah h4{
+  text-align: left;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: 5;
+  color: white;
+  padding-top: 0 auto;
+  margin: 5px;
+  text-decoration: none;
+  text-transform: none;
+}
